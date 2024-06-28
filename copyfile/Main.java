@@ -38,7 +38,6 @@ public class Main {
         File destFile = new File(destPath);
 
         try {
-            //thay đổi lần lượt 2 method để thấy kết quả
             copyFileUsingJava7Files(sourceFile, destFile);
             //copyFileUsingStream(sourceFile, destFile);
             System.out.printf("Copy completed");
